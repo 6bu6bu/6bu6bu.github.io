@@ -8,7 +8,7 @@
     <link href="/2023/03/04/hello-world-1/"/>
     <url>/2023/03/04/hello-world-1/</url>
     
-    <content type="html"><![CDATA[<p>很多人都想能够拥有自己的博客。但是自己购买服务器搭建博客不光成本高而且全自己搭建还要定期维护对大多数人来说是没有这个时间的。因此我选择了利用hexo在<a href="https://github.com/">GitHub</a>搭建自己的博客。</p><h3 id="第一步：安装Node-js"><a href="#第一步：安装Node-js" class="headerlink" title="第一步：安装Node.js"></a>第一步：安装Node.js</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br></code></pre></td></tr></table></figure><p>hexo是nodeJS编写的，所以需要安装一下nodeJS和里面的npm工具。<a href="https://github.com/hexojs/hexo/issues">点此进入nodejs</a>.</p>]]></content>
+    <content type="html"><![CDATA[<p>很多人都想能够拥有自己的博客。但是自己购买服务器搭建博客不光成本高而且全自己搭建还要定期维护对大多数人来说是没有这个时间的。因此我选择了利用hexo在<a href="https://github.com/">GitHub</a>搭建自己的博客。</p><h3 id="第一步：安装Node-js"><a href="#第一步：安装Node-js" class="headerlink" title="第一步：安装Node.js"></a>第一步：安装Node.js</h3><p>hexo是nodeJS编写的，所以需要安装一下nodeJS和里面的npm工具。<a href="https://github.com/hexojs/hexo/issues">点此下载nodejs</a>.</p>]]></content>
     
     
     
