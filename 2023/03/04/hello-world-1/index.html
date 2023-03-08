@@ -24,7 +24,7 @@
 <meta property="og:description" content="很多人都想能够拥有自己的博客。但是自己购买服务器搭建博客不光成本高而且全自己搭建还要定期维护对大多数人来说是没有这个时间的。因此我选择了利用hexo在GitHub搭建自己的博客。 第一步：安装Node.jshexo是nodeJS编写的，所以需要安装一下nodeJS和里面的npm工具。点此下载nodejs.安装完成后打开cmd输入以下指令测试是否安装成功。 1node -v 1npm -v  第二步">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-03-04T12:00:45.000Z">
-<meta property="article:modified_time" content="2023-03-07T16:25:14.169Z">
+<meta property="article:modified_time" content="2023-03-08T02:35:16.276Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          634 字
+          893 字
         
       </span>
     
@@ -230,7 +230,7 @@
         
         
         
-          6 分钟
+          8 分钟
         
       </span>
     
@@ -292,12 +292,16 @@
 <p>接着初始化一下hexo</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">hexo init myblog//myblog也可以是其他名字。<br></code></pre></td></tr></table></figure>
 
-<p>然后</p>
+<p>然后输入</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">cd myblog<br></code></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">npm install<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">npm install//安装组件<br></code></pre></td></tr></table></figure>
 
 
-<h3 id="第四步Github操作"><a href="#第四步Github操作" class="headerlink" title="第四步Github操作"></a>第四步Github操作</h3><p>打开[github]并注册账号(<a target="_blank" rel="noopener" href="https://github.com).过程略过./">https://github.com).过程略过。</a><br>登录后点击右上角加号的第一行内容创建项目。Repository name填写的必须按照格式：你的账户名.github.io<br>同时要选择Add a README file打勾。</p>
+<h3 id="第四步：Github操作"><a href="#第四步：Github操作" class="headerlink" title="第四步：Github操作"></a>第四步：Github操作</h3><p>打开[github]并注册账号(<a target="_blank" rel="noopener" href="https://github.com).过程略过./">https://github.com).过程略过。</a><br>登录后点击右上角加号的第一行内容创建项目。Repository name填写的必须按照格式：你的账户名.github.io<br>同时要选择Add a README file打勾。<br>建好的项目右侧有个settings按钮，点击它，向下拉到GitHub Pages，点击Automatic page generator。等github pages创建完成，你就可以输入你创建的地址（你的用户名.github.io)测试是否创建成功（此时的页面是空的）。</p>
+<h3 id="第五步：首次体验hexo"><a href="#第五步：首次体验hexo" class="headerlink" title="第五步：首次体验hexo"></a>第五步：首次体验hexo</h3><p>输入hexo s 开启本地服务器，访问你的网址。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">hexo s<br></code></pre></td></tr></table></figure>
+
+<p>将Git上给出的网址复制粘贴到浏览器（注：不能用cv法复制，需要选择后右键copy。Ctrl+c用于结束本地服务）。如果进不去过一会儿再试试，可能端口被占用了。</p>
 
                 
               </div>
