@@ -309,7 +309,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">ssh-keygen -t rsa -C &quot;youremail&quot;<br></code></pre></td></tr></table></figure>
 
 
-<p>然后他会告诉你已经生成了ssh文件（默认路径：C:\Users\Administrator.ssh）找到该文件用记事本打开id_rsa.pub文件并复制里面的全部内容。<br>登录github，点击头像进入settings，新建一个new ssh key，标题随便取，将刚才复制的内容粘贴到key里面。输入[ssh -T <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#109;</a>]测试是否操作成功。如果失败了就删除刚才的东西重新来一边（用github搭建博客会经常这样）。<br>成功后在你的blog文件夹中找到_config.yml文件，修改repo值。</p>
+<p>然后他会告诉你已经生成了ssh文件（默认路径：C:\Users\Administrator.ssh）找到该文件用记事本打开id_rsa.pub文件并复制里面的全部内容。<br>登录github，点击头像进入settings，新建一个new ssh key，标题随便取，将刚才复制的内容粘贴到key里面。输入[ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#46;&#99;&#111;&#x6d;">&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#46;&#99;&#111;&#x6d;</a>]测试是否操作成功。如果失败了就删除刚才的东西重新来一边（用github搭建博客会经常这样）。<br>成功后在你的blog文件夹中找到_config.yml文件，修改repo值。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs 复制"> # Deployment<br>## Docs: https://hexo.io/docs/one-command-deployment<br>deploy:<br>  type: git<br>  repo: https://github.com/你的账户名/你的账户名.github.io.git<br>  branch: main<br></code></pre></td></tr></table></figure>
 
 
